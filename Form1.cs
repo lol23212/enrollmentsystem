@@ -91,7 +91,7 @@ namespace WindowsFormsApp1
             {
                 string studentnum = txtlogin.Text;
                 string studentpass = txtpassword.Text;
-                formstudent student = new formstudent(studentnum, studentpass);
+                form5 student = new form5(studentnum, studentpass);
                 student.Show();
                 this.Hide();
             }

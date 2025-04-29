@@ -12,9 +12,11 @@ namespace WindowsFormsApp1
 {
     public partial class Form5 : Form
     {
-        public Form5()
+        public Form5(string ID,string password)
         {
             InitializeComponent();
+            string pass = password;
+            string student = ID;
         }
 
         private void lToolStripMenuItem_Click(object sender, EventArgs e)
